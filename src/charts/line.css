@@ -1,0 +1,28 @@
+.line-chart {
+  height: 400px;
+  width: 800px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 600px) {
+  .line-chart {
+    height: 200px;
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .line-chart {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .line-chart {
+    height: 400px;
+    width: 110%;
+    margin-top: 10%;
+    margin-left: 20%;
+    padding: 50px 50px 50px 50px;
+  }
+}
